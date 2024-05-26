@@ -1,6 +1,7 @@
 {
   "name": "movie-database-site",
   "version": "0.1.0",
+  "homepage": "https://git-with-Rohit.github.io/movie-database-site",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -19,6 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,6 +45,7 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3",
+    "gh-pages": "^6.1.1",
     "react-router-dom": "^6.23.1"
   }
 }

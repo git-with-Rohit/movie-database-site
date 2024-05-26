@@ -4,15 +4,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './styles/style.css';
 import App from './App';
 import MovieDetails from './components/MovieDetails';
-import Contact from './components/Contact';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/movie-database-site">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/movie/:id" element={<MovieDetails />} />
-        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   </React.StrictMode>,

@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# MovieFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to MovieFlix, your ultimate movie database. Explore popular movies, search for your favorites, and get detailed information about each movie, including cast and summaries.
 
-## Available Scripts
+## Live Site
 
-In the project directory, you can run:
+You can view the live site at [MovieFlix](https://git-with-rohit.github.io/movie-database-site/).
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Discover popular movies
+- Search for movies
+- View detailed movie information including cast and summaries
+- Responsive design
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Screenshot
 
-### `npm test`
+![MovieFlix Homepage](src/assets/images/homepage.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To clone and run this project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (https://nodejs.org/)
+- npm (comes with Node.js)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    ```bash
+    git clone https://github.com/git-with-Rohit/movie-database-site.git
+    cd movie-database-site
+    ```
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Start the development server:***
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Usage
+- Open your browser and navigate to http://localhost:3000.
+- Use the search bar to find movies.
+- Click on any movie card to view more details about the movie.
+- Click on "Contact Us" to view contact information in a modal.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Technologies Used
+- React
+- TypeScript
+- CSS
+- GitHub Pages
 
-## Learn More
+Happy browsing!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Rohit Kumar  
+[GitHub](https://github.com/git-with-Rohit) | [LinkedIn](https://www.linkedin.com/in/itz-rohit/)

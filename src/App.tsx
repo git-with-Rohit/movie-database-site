@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 import './styles/style.css';
 import MovieCard from './components/MovieCard';
 import Pagination from './components/Pagination';
+import ContactModal from './components/ContactModal';
 
 const APILINK = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=d2821eff1517b1cd92deed4b166ec08f&page=';
 const SEARCHAPI = 'https://api.themoviedb.org/3/search/movie?&api_key=d2821eff1517b1cd92deed4b166ec08f&query=';
@@ -12,6 +14,7 @@ const App: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
+  const [showContactModal, setShowContactModal] = useState(false);
 
   useEffect(() => {
     fetchMovies(APILINK + currentPage);
@@ -38,10 +41,18 @@ const App: React.FC = () => {
     setCurrentPage(page);
   };
 
+  const openContactModal = () => {
+    setShowContactModal(true);
+  };
+
+  const closeContactModal = () => {
+    setShowContactModal(false);
+  };
+
   return (
     <div>
       <div className="topnav">
-        <a className="active" href="/">MovieFlix</a>
+        <Link to="/" className="active">MovieFlix</Link>
         <div className="search-container">
           <form onSubmit={handleSearch}>
             <input
@@ -52,7 +63,7 @@ const App: React.FC = () => {
             />
           </form>
         </div>
-        <a href="/contact" className="contact-link">Contact Us</a>
+        <button onClick={openContactModal} className="contact-link">Contact Us</button>
       </div>
 
       <div className="hero">
@@ -69,6 +80,8 @@ const App: React.FC = () => {
       <hr />
 
       <Pagination totalPages={totalPages} currentPage={currentPage} goToPage={goToPage} />
+
+      <ContactModal show={showContactModal} onClose={closeContactModal} />
     </div>
   );
 };
