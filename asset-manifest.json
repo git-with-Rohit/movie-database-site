@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/git-with-Rohit/movie-database-site/static/css/main.13688396.css",
-    "main.js": "/git-with-Rohit/movie-database-site/static/js/main.679ad113.js",
-    "static/media/Rohit.jpg": "/git-with-Rohit/movie-database-site/static/media/Rohit.db4a13d77525713651b7.jpg",
-    "static/media/banner.PNG": "/git-with-Rohit/movie-database-site/static/media/banner.523922ac10a446c217b3.PNG",
-    "index.html": "/git-with-Rohit/movie-database-site/index.html",
-    "main.13688396.css.map": "/git-with-Rohit/movie-database-site/static/css/main.13688396.css.map",
-    "main.679ad113.js.map": "/git-with-Rohit/movie-database-site/static/js/main.679ad113.js.map"
+    "main.css": "/movie-database-site/static/css/main.34c768ce.css",
+    "main.js": "/movie-database-site/static/js/main.386cc762.js",
+    "static/media/Rohit.jpg": "/movie-database-site/static/media/Rohit.db4a13d77525713651b7.jpg",
+    "static/media/banner.PNG": "/movie-database-site/static/media/banner.523922ac10a446c217b3.PNG",
+    "index.html": "/movie-database-site/index.html",
+    "main.34c768ce.css.map": "/movie-database-site/static/css/main.34c768ce.css.map",
+    "main.386cc762.js.map": "/movie-database-site/static/js/main.386cc762.js.map"
   },
   "entrypoints": [
-    "static/css/main.13688396.css",
-    "static/js/main.679ad113.js"
+    "static/css/main.34c768ce.css",
+    "static/js/main.386cc762.js"
   ]
 }
