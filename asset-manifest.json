@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/movie-database-site/static/css/main.34c768ce.css",
-    "main.js": "/movie-database-site/static/js/main.8a968442.js",
+    "main.css": "/movie-database-site/static/css/main.38997ba8.css",
+    "main.js": "/movie-database-site/static/js/main.9e493172.js",
     "static/media/Rohit.jpg": "/movie-database-site/static/media/Rohit.db4a13d77525713651b7.jpg",
     "static/media/banner.PNG": "/movie-database-site/static/media/banner.523922ac10a446c217b3.PNG",
     "index.html": "/movie-database-site/index.html",
-    "main.34c768ce.css.map": "/movie-database-site/static/css/main.34c768ce.css.map",
-    "main.8a968442.js.map": "/movie-database-site/static/js/main.8a968442.js.map"
+    "main.38997ba8.css.map": "/movie-database-site/static/css/main.38997ba8.css.map",
+    "main.9e493172.js.map": "/movie-database-site/static/js/main.9e493172.js.map"
   },
   "entrypoints": [
-    "static/css/main.34c768ce.css",
-    "static/js/main.8a968442.js"
+    "static/css/main.38997ba8.css",
+    "static/js/main.9e493172.js"
   ]
 }
